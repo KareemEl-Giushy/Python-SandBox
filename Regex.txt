@@ -1,0 +1,3 @@
+email regex:
+^[A-z0-9\.]+@+[a-z0-9]+\.[a-z]+$
+^[A-z0-9\.]+@+[a-z0-9]+\.(com|net|ru|info)$
