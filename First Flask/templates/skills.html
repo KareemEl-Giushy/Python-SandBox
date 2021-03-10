@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block pagebody %}
+<h1>{{ page_head }}</h1>
+<p>{{ discription }}</p>
+{{skills}}
+<ul>
+{% for skill in skills%}
+    <li>{{skill[0]}} => {{skill[1]}}</li>
+{% endfor %}
+</ul>
+{% endblock %}
